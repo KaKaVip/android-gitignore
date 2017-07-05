@@ -34,11 +34,14 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/dictionaries
-.idea/libraries
+.idea/
+*.ipr
+*.iws
+*.swp
+
+# Eclipse project files
+.classpath
+.project
 
 # Keystore files
 *.jks
@@ -46,10 +49,19 @@ captures/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Google Services (e.g. APIs or Firebase) 
+# google-services.json
 
 # Freeline
 freeline.py
 freeline/
 freeline_project_description.json
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# For http://ci.framgia.vn/
+.framgia-ci-reports/
